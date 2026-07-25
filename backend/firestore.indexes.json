@@ -1,0 +1,24 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "easyvip_fulfillments",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "serverId", "order": "ASCENDING" },
+        { "fieldPath": "status", "order": "ASCENDING" },
+        { "fieldPath": "leaseExpiresAt", "order": "ASCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "easyvip_orders",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "nick", "order": "ASCENDING" },
+        { "fieldPath": "sku", "order": "ASCENDING" },
+        { "fieldPath": "status", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "ASCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
